@@ -72,7 +72,7 @@ public class appContainer extends app
     int ball_diameter = 50; 
 
     char controller_1 = ' ', controller_2 = ' '; 
-    int controller_1_x = 25, controller_2_x = 1382;
+    int controller_1_x = 25, controller_2_x = 1100;
     int controller_1_y = 156, controller_2_y = 156;
     int controller_velo_y = 2; 
     
@@ -85,6 +85,8 @@ public class appContainer extends app
 
     public void execute()
     {
+        
+
         createSprite("controller_1", "paddle.png");
         createSprite("controller_2", "paddle.png"); 
         createSprite("ball", "ball.png"); 

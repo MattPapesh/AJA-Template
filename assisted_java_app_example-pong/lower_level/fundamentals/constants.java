@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class constants 
 {
-    public static final int FRAME_BORDER_X = 424;
+    public static final int FRAME_BORDER_X = 1200;
     public static final int FRAME_BORDER_Y = 700; 
 
     public static final int DELAY_IN_MILLIS = 5; 
